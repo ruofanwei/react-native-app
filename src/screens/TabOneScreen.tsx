@@ -1,17 +1,17 @@
-import { StyleSheet } from 'react-native';
+import React from 'react';
+import { StyleSheet, View, Text, Dimensions } from 'react-native';
 import {
   NativeBaseProvider,
   Box,
   HStack,
   VStack,
-  Text,
   Pressable,
   Image,
 } from 'native-base';
 
 import EditScreenInfo from '../components/EditScreenInfo';
 
-import { RootTabScreenProps } from '../types';
+import { RootTabScreenProps } from '../../types';
 
 export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
   return (
